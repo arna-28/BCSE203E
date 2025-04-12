@@ -1,0 +1,22 @@
+
+<html>
+<body>
+<h2>FEEDBACK</h2>
+Category 1:
+<input type="range" min="0" max="10" oninput="updateValues()"> <output id="value1">5</output><br>
+Category 2:
+<input type="range" min="0" max="10" oninput="updateValues()"> <output id="value2">5</output><br>
+Category 3:
+<input type="range" min="0" max="10" oninput="updateValues()">
+<output id="value3">5</output><br>
+<h3>Total Sum: <output id="totalSum">15</output></h3>
+<script>
+function updateValues() {
+}
+const value1 = document.querySelectorAll('input[type=range]')[0].value; const value2 = document.querySelectorAll('input[type=range]')[1].value; const value3 = document.querySelectorAll('input[type=range]')[2].value; document.getElementById('value1').innerHTML = value1; document.getElementById('value2').innerHTML = value2; document.getElementById('value3').innerHTML = value;
+const total = parseInt(value1) + parseInt(value2) + parseInt(value3); document.getElementById('totalSum').innerHTML
+updateValues();
+</script>
+= total;
+</body>
+</html>
