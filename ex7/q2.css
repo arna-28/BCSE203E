@@ -1,0 +1,26 @@
+body {
+    background-image: url("dog.jpg");
+    background-size: 10%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.rainbow {
+    font-size: 36px;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    column-count: 3; 
+    column-gap: 20px; 
+    line-height: 30pt;
+    margin: 20px;
+}
+
+.ball-animation {
+    position: absolute;
+    left: calc(50% - 70px); 
+    top: calc(50% - 210px);
+}
