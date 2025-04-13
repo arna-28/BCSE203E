@@ -1,0 +1,20 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Display Name and Registration Number</title>
+<script>
+function displayInfo() {
+var name = prompt("Please enter your name:");
+var regNumber = prompt("Please enter your registration number
+document.write('<div style="border: 5px solid red; background-color: white; padding: 10px; margin: 10px;">');
+document.write('<strong>'+ regNumber+'</strong> ' );
+document.write('</div>');
+document.write('<div style="border: 2px solid black; background-color: white; color: red; padding: 10px; margin: 10px;">'); document.write('<strong>'+ name+'</strong> ');
+document.write('</div>');
+}
+</script>
+</head>
+<body onload="displayInfo()">
+</body>
+</html>
